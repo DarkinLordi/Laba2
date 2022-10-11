@@ -15,5 +15,6 @@ public:
 	void SetFIO(string a, string b, string c);
 	void InputFIO();
 	void RedFIO();
+private:
 	string firstname, midlename, lastname;
 };

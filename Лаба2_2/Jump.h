@@ -11,9 +11,6 @@ public:
 	Jump(int c, int r[5], double h, double a, string d);
 	Jump(string d);
 	~Jump();
-	int result[5];
-	double average, height;
-	string data;
 	void OutJump();
 	void SetJump(int c, int r[5], double h, double a, string d);
 	void InputJump();
@@ -21,4 +18,7 @@ public:
 	void ResJump();
 private:
 	int count;
+	int result[5];
+	double average, height;
+	string data;
 };

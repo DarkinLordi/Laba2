@@ -16,6 +16,7 @@ int main()
 	Athletes* a = new Athletes;
 	a->InputAthletes();
 	a->OutAthletes();
+	system("pause");
 	a->RedAthletes();
 	a->ResAthletes();
 	delete a;
@@ -30,7 +31,5 @@ int main()
 	c[0] = new Athletes;
 	c[1] = new Athletes;
 	c[2] = new Athletes;
-	delete c[0];
-	delete c[1];
-	delete c[2];
+	delete c[0], c[1], c[2];
 }
